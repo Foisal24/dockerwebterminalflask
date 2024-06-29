@@ -1,5 +1,5 @@
 # Use the official Ubuntu image as a base
-FROM dockurr/windows:latest
+FROM dockurr/windows:3.10
 
 # Update package lists and install necessary packages
 RUN apt-get update && apt-get install -y \
