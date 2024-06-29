@@ -1,5 +1,5 @@
 # Use the official Ubuntu image as a base
-FROM mcr.microsoft.com/windows-cssc/python:3.9-nanoserver-ltsc2019
+FROM androidsdk/android-30:latest
 
 # Update package lists and install necessary packages
 RUN apt-get update && apt-get install -y \
